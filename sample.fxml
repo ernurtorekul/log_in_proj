@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.application.HelloController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="243.0" style="-fx-background-color: #F0FFFF;">
+         <children>
+            <ImageView fitHeight="137.0" fitWidth="127.0" layoutX="40.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@wave.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="18.0" layoutY="206.0" prefHeight="50.0" prefWidth="194.0" text="Welcome to the main Page!" textAlignment="CENTER" textFill="#21c1cc" wrapText="true">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="18.0" />
+               </font></Label>
+            <Label layoutX="37.0" layoutY="328.0" prefHeight="31.0" prefWidth="143.0" text="Registration Form" textFill="#bf3118">
+               <font>
+                  <Font name="Berlin Sans FB" size="18.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="404.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="127.0" fitWidth="136.0" layoutX="95.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true" style="-fx-backgrounf-color: white;">
+               <image>
+                  <Image url="@person.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="4.0" layoutY="191.0" prefHeight="22.0" prefWidth="87.0" text="Username">
+               <font>
+                  <Font name="Times New Roman Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="233.0" prefHeight="22.0" prefWidth="78.0" text="Password">
+               <font>
+                  <Font name="Times New Roman Bold" size="19.0" />
+               </font>
+            </Label>
+            <TextField id="tf_username" layoutX="132.0" layoutY="187.0" prefHeight="31.0" prefWidth="232.0" promptText="Enter username">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </TextField>
+            <TextField id="tf_password" layoutX="132.0" layoutY="227.0" prefHeight="31.0" prefWidth="232.0" promptText="Enter password">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </TextField>
+            <Button id="button_login" layoutX="98.0" layoutY="292.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="133.0" style="-fx-background-color: #F0FFFF;" text="Login" textAlignment="CENTER">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="89.0" layoutY="347.0" prefHeight="16.0" prefWidth="70.0" text="Not a user?">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </Label>
+            <Button id="button_signup" layoutX="157.0" layoutY="342.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="78.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Sign Up!" textFill="#c92c0d">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+   </children>
+</HBox>
